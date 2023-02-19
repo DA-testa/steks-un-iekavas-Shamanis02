@@ -31,10 +31,10 @@ def find_mismatch(text):
 
 
 def main():
-    text = input()
+    text = input("ievad")
     mismatch = find_mismatch(text)
     if not mismatch:
-        print('Success')
+        print('success')
     else:
         print(mismatch)
     # Printing answer, write your code here
@@ -42,3 +42,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
