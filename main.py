@@ -36,7 +36,7 @@ def main():
     if not mismatch:
         print('Success')
     else:
-        print(str(mismatch))
+        print(mismatch)
     # Printing answer, write your code here
 
 
